@@ -1,0 +1,45 @@
+.headline{
+	font-weight: 300;
+	font-size: 1.9rem;
+	color: $mainBlue;
+
+	@mixin atSmall{
+		font-size: 2.875rem;
+	}
+
+	&--centered{
+		text-align: center;
+	}
+
+	&--orange{
+		color:$mainOrange;
+	}
+
+	&--small{
+		font-size: 1.2rem;
+
+		@mixin atSmall{
+			font-size: 1.875rem;
+		}
+	}
+
+	&--narrow{
+		max-width: 500px;
+		margin-left: auto;;
+		margin-right: auto;
+	}
+
+	&--light{
+		font-weight: 100;
+	}
+
+	&--b-margin-small{
+		margin-bottom: 0.5em;
+	}
+
+	&--b-margin-large{
+		/*We switching to em leavin r which stands for root of the document because this will now make the 
+		margin scale with the element that has the 1.6 margin, note the element size is in rem already*/
+		margin-bottom: 1.6em;
+	}
+}

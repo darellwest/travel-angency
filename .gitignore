@@ -1,0 +1,10 @@
+#ignoring things not to tracked by git
+
+node_modules/
+thumbs.db
+.cache
+.settings
+.tmproj
+*.sass-cache
+package-lock.json
+node-experiment

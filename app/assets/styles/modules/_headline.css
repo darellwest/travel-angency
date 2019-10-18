@@ -42,4 +42,8 @@
 		margin scale with the element that has the 1.6 margin, note the element size is in rem already*/
 		margin-bottom: 1.6em;
 	}
+
+	&--no-t-margin{
+		margin-top: 0;
+	}
 }

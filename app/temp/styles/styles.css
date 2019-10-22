@@ -587,8 +587,16 @@ a{
 		margin-right: -2.0625rem;
 	}
 
+.row--gutters-large{
+		margin-right: -6.25rem;
+	}
+
 .row--gutters > div{
 		padding-right: 2.0625rem;
+	}
+
+.row--gutters-large > div{
+		padding-right: 6.25rem;
 	}
 
 .row--b-margin-until-medium{
@@ -607,7 +615,12 @@ a{
 		}
 		
 		.row__col-md-4--larger{
-			width: 36%;
+			width: 37%;
+		}
+
+		.row__col-md-6{
+			float: left;
+			width: 50%;
 		}
 
 		.row__col-md-8{
@@ -616,7 +629,7 @@ a{
 		}
 
 		.row__col-md-8--smaller{
-			width: 64%;
+			width: 63%;
 		}
 	}
 
@@ -625,8 +638,9 @@ a{
 	each of the multiple paragraphs that will exist our site*/
 
 .generic-content-container p {
+	   font-weight: 300;	
 	   line-height: 1.65;
-	   margin: 1.8rem 0;
+	   margin: 0 0 1.8rem 0;
 	}
 
 @media(min-width: 530px){
@@ -638,7 +652,82 @@ a{
 
 .generic-content-container p a{
 		font-weight: 700;
+	}
 
+.section-title{
+	font-size: 2.55rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+@media(min-width: 530px){
+
+.section-title{
+		font-size: 3.7rem
+}
+	}
+
+.section-title strong{
+		font-weight: 500;
+	}
+
+.section-title__icon{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: .6rem;
+	}
+
+@media(min-width: 530px){
+
+.section-title__icon{
+			margin-right: .5rem;
+			margin-left: 0;
+			margin-bottom: 0;
+			display: inline-block
+	}
+	}
+
+.feature-item{
+	
+	position: relative;
+	padding-bottom: 2rem;
+}
+
+@media(min-width: 530px){
+
+.feature-item{
+		padding-left: 94px
+}
+	}
+
+.feature-item__icon{
+	 	display: block;
+	 	margin: 0 auto;
+	 }
+
+@media(min-width: 530px){
+
+.feature-item__icon{
+	 		position: absolute;
+	 		left: 0
+	 }
+	}
+
+.feature-item__title{
+	 	font-size: 1.6rem;
+	 	font-weight: 300;
+	 	text-align: center;
+	 	margin: .7rem auto .8rem auto;
+	 }
+
+@media(min-width: 530px){
+
+.feature-item__title{
+	 		font-size: 1.875rem;
+	 		text-align: left;
+	 		margin-top: 1rem
+	 }
 	}
 
 

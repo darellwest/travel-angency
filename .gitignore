@@ -8,3 +8,4 @@ thumbs.db
 *.sass-cache
 package-lock.json
 node-experiment
+ gulp/
